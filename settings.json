@@ -1,0 +1,42 @@
+{
+    // VSCode
+    "update.mode": "manual",
+    "telemetry.telemetryLevel": "off",
+    "editor.fontFamily": "'Cascadia Code', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 14,
+    "editor.fontLigatures": true,
+    "editor.letterSpacing": 0.5,
+    "editor.lineHeight": 24,
+    "editor.guides.bracketPairs": "active",
+    "window.zoomLevel": 1,
+    "editor.cursorBlinking": "expand",
+    "diffEditor.ignoreTrimWhitespace": true,
+    
+    // Prettier config
+    "prettier.jsxSingleQuote": true,
+    "prettier.semi": false,
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+    "prettier.trailingComma": "none",
+    "prettier.printWidth": 120,
+    "prettier.arrowParens": "avoid",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    // Animation
+    "animations.Enabled": true,
+    "animations.CursorAnimation": true,
+    "animations.CursorAnimationOptions": {
+        "Color": "#f255d0"
+    },
+
+    // VSCode custom CSS
+    "vscode_custom_css.imports": [
+        "file:///Users/macbookair/Documents/Code/CusVSC/2lines-animation.css",
+        "file:///Users/macbookair/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.4/dist/updateHandler.js"
+    ],
+}
