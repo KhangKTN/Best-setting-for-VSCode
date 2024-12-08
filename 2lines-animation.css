@@ -53,26 +53,32 @@
   }
 } */
 
+:root {
+  --size-scroll: 6px;
+  --borer-radius: 6px;
+  --margin-left: 5px;
+}
+
 /* Setting for all vertical scroll */
 .scrollbar.vertical > .slider {
-  width: 8px !important;
-  border-radius: 10px;
+  width: var(--size-scroll) !important;
+  border-radius: var(--borer-radius);
 }
 
 /* Setting for all horizontal scroll */
 .scrollbar.horizontal > .slider {
-  height: 8px !important;
-  border-radius: 10px;
+  height: var(--size-scroll) !important;
+  border-radius: var(--borer-radius);
 }
 
 /* Setting for scroll of editor */
 .editor-container .monaco-scrollable-element > .scrollbar.vertical > .slider {
-  margin-left: 2px;
+  margin-left: var(--margin-left);
 }
 
 /* Setting for scroll of terminal */
 .terminal > .xterm-scrollable-element .scrollbar.vertical > .slider {
-  margin-left: 2px;
+  margin-left: var(--margin-left);
 }
 
 /* Hidden border near scroll */
