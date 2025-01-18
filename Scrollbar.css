@@ -1,36 +1,35 @@
 :root {
     --size-scroll: 6px;
     --borer-radius: 6px;
-    --margin-left: 5px;
+    --margin-left: 4px;
 }
 
 /* Setting for all vertical scroll */
-.scrollbar.vertical>.slider {
+.scrollbar.vertical > .slider {
     width: var(--size-scroll) !important;
     border-radius: var(--borer-radius);
 }
 
 /* Setting for all horizontal scroll */
-.scrollbar.horizontal>.slider {
+.scrollbar.horizontal > .slider {
     height: var(--size-scroll) !important;
     border-radius: var(--borer-radius);
 }
 
 /* Setting for scroll of editor */
-.editor-container .monaco-scrollable-element>.scrollbar.vertical>.slider {
+.editor-container .monaco-scrollable-element > .scrollbar.vertical > .slider {
     margin-left: var(--margin-left);
 }
 
 /* Setting for scroll of terminal */
-.terminal>.xterm-scrollable-element .scrollbar.vertical>.slider {
+.terminal > .xterm-scrollable-element .scrollbar.vertical > .slider {
     margin-left: var(--margin-left);
 }
 
 /* Hidden border near scroll */
-.editor-container .monaco-scrollable-element>canvas {
+.editor-container .monaco-scrollable-element > canvas {
     width: 0 !important;
 }
-
-.terminal>canvas {
+.terminal > canvas {
     width: 0 !important;
 }

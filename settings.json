@@ -13,6 +13,9 @@
     "editor.guides.bracketPairs": "active",
     "editor.cursorBlinking": "expand",
     "editor.minimap.enabled": false,
+
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
     
     // Prettier config
     "prettier.jsxSingleQuote": true,
@@ -40,5 +43,8 @@
     "vscode_custom_css.imports": [
         "file:///Users/macbookair/Documents/Code/CusVSC/2lines-animation.css",
         "file:///Users/macbookair/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.4/dist/updateHandler.js"
-    ]
+    ],
+
+    // Java option
+    "java.saveActions.organizeImports": true // Extension: Language Support for Java(TM) by Red Hat
 }
