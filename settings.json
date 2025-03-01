@@ -45,6 +45,9 @@
         "file:///Users/macbookair/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.4/dist/updateHandler.js"
     ],
 
-    // Java option
-    "java.saveActions.organizeImports": true // Extension: Language Support for Java(TM) by Red Hat
+    // Optimize import
+    "java.saveActions.organizeImports": true, // Extension: Language Support for Java(TM) by Red Hat
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "always"
+    }
 }

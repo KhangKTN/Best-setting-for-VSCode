@@ -2,12 +2,14 @@
     --size-scroll: 6px;
     --borer-radius: 6px;
     --margin-left: 4px;
+    --color: #cccccc80;
 }
 
 /* Setting for all vertical scroll */
 .scrollbar.vertical > .slider {
     width: var(--size-scroll) !important;
     border-radius: var(--borer-radius);
+    background-color: var(--color);
 }
 
 /* Setting for all horizontal scroll */
